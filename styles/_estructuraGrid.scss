@@ -1,0 +1,27 @@
+body {
+    display: grid;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    grid-template-areas: "header header"
+                         "categorias  main"
+                         "footer  footer";
+    grid-template-rows: 562px 1fr 50px;
+    grid-template-columns: 250px 1fr;
+}
+
+header{
+    grid-area: header;
+}
+  
+aside{
+    grid-area: categorias;
+}
+  
+main{
+    grid-area: main;
+}
+  
+footer{
+    grid-area: footer;
+}
