@@ -5,6 +5,11 @@
 @use './media';
 
 
+*{/*aplicando extend */
+    @extend *;
+    box-sizing: border-box;
+    font-family: 'Macondo', cursive;
+}
 
 header{
     @include flexs.flex_C;
@@ -36,7 +41,8 @@ header{
         }
         a{
             text-decoration: none;
-            color: colores.$color-1;
+            /*usando map-get*/
+            color:map-get(colores.$color-btn1, "1");
         }
     }
     .icono{
@@ -64,7 +70,8 @@ header{
 }
 
 aside{
-    background-color: colores.$color-2;
+    /*aplicando map-get*/
+    background-color: map-get(colores.$color-btn1, "2");
     border-right: double 2px ;
 }
 
@@ -92,7 +99,8 @@ main{
         padding-top: 10px;
         box-shadow: 0 14px 28px rgba(0, 0, 0, 25);
         transition: .4s;
-        background: colores.$color-2;
+        /*aplicando map-get*/
+        background: map-get(colores.$color-btn1, "2");
 
         &:hover{
             box-shadow: 0 3px 6px rgba(0, 0, 0, 16), 0 3px 6px rgba(0, 0, 0, 23);
@@ -125,7 +133,8 @@ main{
     .prec-prod{
         text-align: center;
         font-size: 26px;
-        color: colores.$color-1;
+        /*aplicando map-get*/
+        color: map-get(colores.$color-btn1, "1");
         margin: 0;
     }
     
@@ -168,21 +177,10 @@ main{
     }
 }
 
-
-.buy-1{
-    background: colores.$color-3;
-}
-
-.buy-2{
-    background: colores.$color-4;
-}
-
-.buy-3{
-    background: colores.$color-5;
-}
-
-.buy-4{
-    background: colores.$color-6;
+@each $name, $color in colores.$color-btn {
+    .buy-#{$name}{
+        background: $color;
+    }
 }
 
 

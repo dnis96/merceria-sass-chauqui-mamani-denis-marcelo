@@ -2,6 +2,8 @@
   border: 0px;
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+  font-family: "Macondo", cursive;
 }
 
 .logo {
@@ -136,11 +138,6 @@ footer {
     margin: 0;
   }
 }
-* { /*aplicando extend */
-  box-sizing: border-box;
-  font-family: "Macondo", cursive;
-}
-
 header {
   display: flex;
   flex-direction: column;
@@ -149,7 +146,7 @@ header .encabezado {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 89px;
+  height: 99px;
 }
 header .logo {
   /*display: block;*/
@@ -171,7 +168,6 @@ header nav ul li:hover {
 }
 header nav a {
   text-decoration: none;
-  /*usando map-get*/
   color: #1d518d;
 }
 header .icono {
@@ -198,7 +194,6 @@ header h1 {
 }
 
 aside {
-  /*aplicando map-get*/
   background-color: rgb(249, 245, 245);
   border-right: double 2px;
 }
@@ -228,7 +223,6 @@ main .content {
   padding-top: 10px;
   box-shadow: 0 14px 28px rgb(0, 0, 0);
   transition: 0.4s;
-  /*aplicando map-get*/
   background: rgb(249, 245, 245);
 }
 main .content:hover {
@@ -258,7 +252,6 @@ main .content:hover {
 .content .prec-prod {
   text-align: center;
   font-size: 26px;
-  /*aplicando map-get*/
   color: #1d518d;
   margin: 0;
 }
