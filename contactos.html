@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <meta name="description" content="pagina web dedicada a la venta de productos de merceria (incluye fotos de productos, ubicacion del local, contacto y sobre nosotros">
+    <meta name="keywords" content="merceria, telas, fabrics, buttons, perfumes, agujas, needles, cintas, ribbons, 
+    haberdashery, lana, wool">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/css/style.css">
+</head>
+<body class="contact">
+    <!--NAVBAR-->
+    <header>
+        <div class="encabezado">
+            <img class="logo logoM" src="img/merceria.png" alt="logo">
+            <h1>MERCERIA DEL VALLE</h1>
+            <a href=""><img class="logo logoF" src="img/logo face.png" alt="logoF"></a>
+        </div>
+        <nav class="menu-icono">
+            <img src="img/menuicono1.png.crdownload" alt="icono-menu">
+        </nav>
+            <nav class="menuP">
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                        <div ><img class="icono" src="img/inicio.png" alt="icono inicio"></div> Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="ofertas.html">
+                            <div ><img class="icono" src="img/telas.png" alt="icono inicio"></div>Ofertas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="quienes_somos.html">
+                            <div ><img class="icono" src="img/quienes-somos.png" alt="icono inicio"></div>Quienes Somos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contactos.html">
+                            <div ><img class="icono" src="img/inicio.png" alt="icono inicio"></div>Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        <div class="fotoslocal">
+            <img class="fotoL" src="img/merceria local.jpg" alt="localM">
+        </div>   
+    </header>
+    <!--CARROUSEL-->
+    
+   
+    <!--contacto-->
+    
+    <main class="container form1 " >
+        <h2>FORMULARIO DE CONTACTO</h2>
+        <form class="row g-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="nombre" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="apellido" aria-label="Last name">
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">direccion</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">sexo</label>
+              <select id="inputState" class="form-select">
+                <option selected>Masculino</option>
+                <option>Femenino</option>
+              </select>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">correo electronico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">comentario</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            <div class="col-12">   
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  RECIBIR NOTIFICACIONES
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <!--FOOTER-->
+    <footer class="text-center footer-style">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <h3>Dirección</h3>
+                    <p>
+                        San Carlos - Salta - Argentina <br />
+                    </p>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h3>Trabajo FreeLancer</h3>
+                    <p>&copy; Derechos Reservados 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

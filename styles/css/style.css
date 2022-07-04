@@ -319,4 +319,17 @@ footer {
   background-color: blueviolet;
 }
 
+.contact {
+  display: grid;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  grid-template-areas: "header"
+                       "main  "
+                       "footer ";
+  grid-template-rows: 580px 1fr 90px;
+  grid-template-columns: 1fr;
+}
+
 /*# sourceMappingURL=style.css.map */
+
