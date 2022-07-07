@@ -1,0 +1,9 @@
+ En el archivo index.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica
+en pocas palabras sobre el contenido de mi sitio web (ventas de productos, ubicacion, quienes somos y contactos).
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas 
+las páginas de mi sitio: productos de merceria (telas hilos,etc)
+Encabezado: es lo mismo para cada pagina del sitio, el logo, el nombre del local, logo facebook.
+La etiqueta h1 es usado para el nombre del local, luego los h2 para resaltar los principal de cada pagina
+Respeta el uso de las etiquetas semanticas y estructurales de html para reforzar el significado de la informacion de la pagina.
+Todas las imagenes usadas son de licencia libre
